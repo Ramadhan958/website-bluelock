@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Lock | System</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #0a0f2c, #1b2a6b);
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+    }
+
+    header h1 {
+      color: #00e0ff;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      margin-left: 25px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00e0ff;
+    }
+
+    .system {
+      padding: 80px 40px;
+      text-align: center;
+    }
+
+    .system h2 {
+      font-size: 44px;
+      margin-bottom: 20px;
+      color: #00e0ff;
+    }
+
+    .system p.desc {
+      max-width: 850px;
+      margin: 0 auto 60px;
+      font-size: 18px;
+      line-height: 1.7;
+      opacity: 0.9;
+    }
+
+    .systems-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 35px;
+    }
+
+    .system-card {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 35px 30px;
+      border-radius: 22px;
+      border: 1px solid rgba(0, 224, 255, 0.25);
+      transition: 0.35s;
+    }
+
+    .system-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 30px rgba(0, 224, 255, 0.45);
+    }
+
+    .system-card h3 {
+      color: #00e0ff;
+      margin-bottom: 15px;
+      font-size: 24px;
+    }
+
+    .system-card p {
+      font-size: 16px;
+      line-height: 1.6;
+      opacity: 0.9;
+    }
+
+    .highlight {
+      margin-top: 70px;
+      padding: 50px 40px;
+      background: linear-gradient(135deg, rgba(0, 224, 255, 0.15), rgba(0, 102, 255, 0.15));
+      border-radius: 25px;
+      box-shadow: 0 0 35px rgba(0, 224, 255, 0.3);
+    }
+
+    .highlight h3 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #00e0ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: rgba(0, 0, 0, 0.5);
+      font-size: 14px;
+      opacity: 0.7;
+    }
+
+    @media (max-width: 600px) {
+      .system h2 {
+        font-size: 34px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BLUE LOCK</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="system.html">System</a>
+      <a href="players.html">Players</a>
+    </nav>
+  </header>
+
+  <section class="system">
+    <h2>Sistem Blue Lock</h2>
+    <p class="desc">
+      Sistem Blue Lock dirancang untuk menghancurkan mental pemain biasa
+      dan membentuk striker dengan ego absolut melalui teknologi, data,
+      dan kompetisi ekstrem.
+    </p>
+
+    <div class="systems-grid">
+      <div class="system-card">
+        <h3>Ego Analysis</h3>
+        <p>
+          Sistem menganalisis kepribadian, gaya bermain, dan ambisi
+          pemain untuk memaksimalkan potensi individual.
+        </p>
+      </div>
+
+      <div class="system-card">
+        <h3>AI Training</h3>
+        <p>
+          Latihan berbasis kecerdasan buatan dengan simulasi pertandingan
+          berintensitas tinggi.
+        </p>
+      </div>
+
+      <div class="system-card">
+        <h3>Ranking System</h3>
+        <p>
+          Pemain diberi peringkat secara real-time berdasarkan performa,
+          statistik, dan kontribusi gol.
+        </p>
+      </div>
+
+      <div class="system-card">
+        <h3>Elimination Match</h3>
+        <p>
+          Setiap pertandingan dapat mengeliminasi pemain dengan
+          mental terlemah.
+        </p>
+      </div>
+
+      <div class="system-card">
+        <h3>Weapon Development</h3>
+        <p>
+          Mengasah senjata utama setiap striker, seperti kecepatan,
+          kekuatan, atau visi bermain.
+        </p>
+      </div>
+
+      <div class="system-card">
+        <h3>Survival Mentality</h3>
+        <p>
+          Sistem melatih pemain untuk bertahan dalam tekanan ekstrem
+          dan kompetisi brutal.
+        </p>
+      </div>
+    </div>
+
+    <div class="highlight">
+      <h3>"Hanya satu striker yang akan bertahan."</h3>
+      <p>
+        Blue Lock bukan tentang kerja sama, tetapi tentang siapa yang
+        memiliki ego dan tekad paling kuat untuk menjadi nomor satu.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    © website ini dibuat oleh ramon
+  </footer>
+
+</body>
+</html>

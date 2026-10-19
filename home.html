@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blue Lock | Futuristic Football</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0a0f2c, #1b2a6b);
+      color: #ffffff;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+    }
+
+    header h1 {
+      color: #00e0ff;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: #ffffff;
+      margin-left: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00e0ff;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 80vh;
+      padding: 20px;
+    }
+
+    .hero-content {
+      max-width: 700px;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 50px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0, 224, 255, 0.3);
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #00e0ff;
+    }
+
+    .hero p {
+      font-size: 18px;
+      line-height: 1.6;
+      opacity: 0.9;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 35px;
+      background: linear-gradient(135deg, #00e0ff, #0066ff);
+      color: #000;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #00e0ff;
+    }
+
+    .section {
+      padding: 80px 40px;
+      text-align: center;
+    }
+
+    .section h3 {
+      font-size: 36px;
+      margin-bottom: 40px;
+      color: #00e0ff;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.06);
+      padding: 30px;
+      border-radius: 20px;
+      transition: 0.3s;
+      border: 1px solid rgba(0, 224, 255, 0.2);
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 25px rgba(0, 224, 255, 0.4);
+    }
+
+    .card h4 {
+      margin-bottom: 15px;
+      color: #00e0ff;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+      font-size: 14px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BLUE LOCK</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="system.html">System</a>
+      <a href="players.html">Players</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h2>Awaken Your Ego</h2>
+      <p>
+        Blue Lock adalah proyek sepak bola futuristik yang dirancang untuk
+        menciptakan striker terbaik melalui sistem pelatihan ekstrem,
+        teknologi canggih, dan mentalitas egois.
+      </p>
+      <a href="#about" class="btn">Explore Project</a>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h3>Tentang Blue Lock</h3>
+    <p style="max-width: 800px; margin: 0 auto; opacity: 0.9;">
+      Proyek ini berfokus pada pengembangan kemampuan individu, kecepatan
+      pengambilan keputusan, dan insting mencetak gol dengan pendekatan
+      futuristik dan kompetitif.
+    </p>
+  </section>
+
+  <section class="section" id="system">
+    <h3>Sistem Pelatihan</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>Ego Analysis</h4>
+        <p>Menganalisis gaya bermain dan potensi ego setiap pemain.</p>
+      </div>
+      <div class="card">
+        <h4>AI Simulation</h4>
+        <p>Latihan berbasis simulasi cerdas dengan tingkat kesulitan tinggi.</p>
+      </div>
+      <div class="card">
+        <h4>Survival Match</h4>
+        <p>Pertandingan eliminasi untuk meningkatkan mental juara.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="players">
+    <h3>Prototype Striker</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>Speed Type</h4>
+        <p>Mengandalkan kecepatan dan pergerakan tanpa bola.</p>
+      </div>
+      <div class="card">
+        <h4>Power Type</h4>
+        <p>Striker dengan tembakan kuat dan dominasi fisik.</p>
+      </div>
+      <div class="card">
+        <h4>Vision Type</h4>
+        <p>Pemain dengan visi dan kecerdasan taktik tinggi.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © website ini dibuat oleh ramon
+  </footer>
+
+</body>
+</html>
